@@ -23,6 +23,20 @@ body {
   text-decoration: none;
   
 }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p{ 
+  margin: 0;
+ }
+ img{
+  display: block;
+ }
+
 /* Header */
 .logo {
   color: var(--color-iris);
@@ -138,6 +152,7 @@ a {
 /* Footer */
 .footer {
   background-color: var(--color-navy-blue);
+  padding: 100px, 0;
 }
 .footer-link,
 .footer-text-logo {
@@ -148,11 +163,15 @@ a {
   line-height: 0, 8;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
+  display: inline-block;
+  margin-bottom: 17.5px;
+
 }
 .footer-link {
   color: var(--color-navy-blue);
   text-decoration: none;
   font-family: var(--primary-font), sans-serif;
+
 }
 .web-footer {
   color: var(--color-cloud);
@@ -162,6 +181,7 @@ a {
   color: var(--color-cloud);
   line-height: 24px;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /* Index html styles */
