@@ -299,6 +299,7 @@ a {
 }
 .footer-link {
   display: inline-block;
+  margin-bottom: 16px;
 }
 .web-footer {
   color: var(--color-cloud);
