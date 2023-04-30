@@ -295,7 +295,7 @@ a {
 /* Footer */
 .footer {
   background-color: var(--color-navy-blue);
-  padding: 100px, 0;
+  padding: 100px 0;
 }
 .footer-link,
 .footer-text-logo {
