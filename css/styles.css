@@ -297,23 +297,8 @@ a {
   background-color: var(--color-navy-blue);
   padding: 100px 0;
 }
-.footer-link,
-.footer-text-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 0, 8;
-  letter-spacing: 0.02em;
-  color: var(--color-cloud);
-  display: inline-block;
-  margin-bottom: 16px;
-  padding: 0;
-}
 .footer-link {
-  color: var(--color-navy-blue);
-  text-decoration: none;
-  font-family: var(--primary-font), sans-serif;
+  display: inline-block;
 }
 .web-footer {
   color: var(--color-cloud);
